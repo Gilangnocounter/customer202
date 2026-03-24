@@ -346,16 +346,17 @@ function initializeDefaultSettings() {
     window.settings = {
         music: './music/music.mp3',
         countdown: 3,
-        matrixText: 'HAPPYBIRTHDAY',
+        // matrixText: 'HAPPYBIRTHDAY',
         // matrixText: 'IMPROUDOFYOU',
-        // matrixText: 'IMSORRY',
+        matrixText: 'IMSORRY',
         // matrixText: 'ILOVEYOU',
         matrixColor1: '#ff69b4', 
         matrixColor2: '#ff1493', 
-        sequence: 'HAPPY|BIRTHDAY|KIKI|AMELIA|❤',
+        // sequence: 'HAPPY|BIRTHDAY|KIKI|AMELIA|❤',
+        sequence: 'I\'M|TRULY|SORRY|MY|LOVE|KIKI|AMELIA|❤',
         // sequence: 'I\'M|PROUD|OF|U|❤️',
         sequenceColor: '#ff69b4', 
-        gift: './image/happy3.gif',
+        gift: './image/happy5.gif',
         enableBook: true,
         enableHeart: true,
         isSave: false,  
@@ -372,7 +373,8 @@ function initializeDefaultSettings() {
             },
             { 
                 image: './image/photos/b2.png', 
-                content: 'Happy birthday sayangg ❤️' 
+                // content: 'Happy birthday sayangg ❤️' 
+                content: 'Aku tidak pernah berniat menyakitimu sayangg ❤️' 
             },
         
             // Lembar 2
@@ -381,7 +383,8 @@ function initializeDefaultSettings() {
             },
             { 
                 image: './image/photos/b4.png', 
-                content: 'As long as you’re smiling, I’m happy. Stay happy, my love.' 
+                // content: 'As long as you’re smiling, I’m happy. Stay happy, my love.' 
+                content: 'Setiap melihat wajahmu selalu mengingatkanku untuk menjadi versi terbaik dari diriku' 
             }
         
             // Lembar 3
